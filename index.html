@@ -12,8 +12,83 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
         <link href="//db.onlinewebfonts.com/c/62c0135163427c652ae397f327f85010?family=Museo+Sans" rel="stylesheet">
         <link href="//db.onlinewebfonts.com/c/7463bc8d2f1ad1feebddbb2c9e084f80?family=MuseoSansW01-900" rel="stylesheet">
+        <style>
+                        body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Roboto', Arial, Helvetica, sans-serif;
+                color: #454545;
+                background: #E4E4E4;
+            }
+            header {
+                width: 100%;
+                min-height: 200px;
+                background-color: #F3F3F3;
+                display: flex;
+                justify-content: flex-end;
+                flex-direction: column;
+            }
+            nav {
+                width: 75%;
+                margin: auto;
+                display: flex;
+                height: 100%;
+                margin-bottom: 31px;
+            }
+            .logo-wrapper {
+                width: 50%;
+                display: flex;
+            }
+            .logo {
+                display: block;
+                width: 154px;
+                height: auto;
+            }
+            .logo a {
+                position: relative;
+                background: url("./img/MO Logo.png") no-repeat center;
+                background-size: contain;
+                height: 100%;
+                width: 100%;
+                display: block;
+            }
+            .logo-accessibility {
+                position: absolute;
+                top: -10000px;
+                left: -10000px;
+            }
+            .heading-wrapper {
+                width: 50%;
+                display: flex;
+                justify-content: flex-end;
+            }
+            .heading {
+                font-family: 'MuseoSansW01-900';
+                font-size: 2.9rem;
+                color: #853569;
+                line-height: 3.3rem;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+        </style>
     </head>
     <body>
+        <header>
+            <nav>
+                <div class="logo-wrapper">
+                    <div class="logo">
+                        <a href="./"><span class="logo-accessibility">MO Agency Logo</span></a>
+                    </div>
+                </div>
+                <div class="heading-wrapper">
+                    <h2 class="heading">mo.agency</h2>
+                </div>
+            </nav>
+        </header>
 
+        <script>
+            
+        </script>
     </body>
 </html>
