@@ -71,6 +71,74 @@
                 justify-content: center;
                 flex-direction: column;
             }
+            main {
+                min-height: 973px;
+                display: flex;
+                width: 100%;
+                background-color: #E4E4E4;
+            }
+            #main-app {
+                width: 75%;
+                margin: auto;
+                margin-top: 78px;
+                
+            }
+            .city {
+                font-size: 3.9rem;
+                font-weight: 500;
+                color: #FFFFFF;
+                letter-spacing: 0.02rem;
+                text-align: center;
+                margin: 0 0 52px 0;
+            }
+            #app-wrapper {
+                min-height: 655px;
+                background-color: #F3F3F3;
+                box-shadow: -4px 15px 35px 0 rgba(0,0,0,0.17);
+                display: flex;
+            }
+            #temperature-wrapper {
+                flex-shrink: 1;
+                flex-basis: 45%;
+                margin: auto;
+            }
+            #wind-speed-wrapper {
+                flex-shrink: 2;
+                flex-basis: 55%;
+                margin: auto;
+            }
+            .app-data {
+                font-size: 103.05px;
+                font-weight: 500;
+                color: #E4E4E4;
+                text-align: center;
+            }
+            .app-image {
+                width: 43px;
+                height: auto;
+                display: block;
+                margin-right: 5px;
+            }
+            #temperature-wrapper p {
+                font-size: 30px;
+                font-weight: 400;
+                color: #4A4A4A;
+                text-align: center;
+                line-height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            #wind-speed-wrapper p {
+                font-size: 30px;
+                font-weight: 400;
+                color: #4A4A4A;
+                text-align: center;
+                line-height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         </style>
     </head>
     <body>
@@ -86,6 +154,21 @@
                 </div>
             </nav>
         </header>
+        <main>
+            <div id="main-app">
+                <h1 id="city" class="city"></h1>
+                <div id="app-wrapper">
+                    <div id="temperature-wrapper">
+                        <h1 class="app-data"><span id="temperature"></span> &deg; C</h1>
+                        <p><img class="app-image" src="./img/noun_atmosphere_1254167.png"> TEMPERATURE</p>
+                    </div>
+                    <div id="wind-speed-wrapper">
+                        <h1 class="app-data"><span id="wind-speed"></span> km/H</h1>
+                        <p><img class="app-image" src="./img/noun_Windsock_263345.png"> WIND</p>
+                    </div>
+                </div>
+            </div>
+        </main>
 
         <script>
             
