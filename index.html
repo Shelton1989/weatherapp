@@ -139,6 +139,50 @@
                 align-items: center;
                 justify-content: center;
             }
+            footer {
+                background: #9B9B9B;
+                width: 100%;
+                min-height: 67px;
+            }
+            .footer-container {
+                width: 75%;
+                height: 100%;
+                margin: auto;
+                display: flex;
+            }
+            .copyright-wrapper {
+                width: 50%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .copyright-wrapper p {
+                font-family: 'Museo Sans';
+                color: #F3F3F3;
+                line-height: 30px;
+            }
+            .social-wrapper {
+                width: 50%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .social-icons {
+                width: 100%;
+                height: auto;
+                list-style: none;
+                display: flex;
+                justify-content: flex-end;
+                padding: 0;
+            }
+            .social-icon {
+                margin-left: 12px;
+                display: block;
+                width: 34px;
+                height: auto;
+            }
         </style>
     </head>
     <body>
@@ -169,6 +213,20 @@
                 </div>
             </div>
         </main>
+        <footer>
+            <div class="footer-container">
+                <div class="copyright-wrapper">
+                    <p>&copy; MO Agency 2019</p>
+                </div>
+                <div class="social-wrapper">
+                    <ul class="social-icons">
+                        <li><a href="#"><img class="social-icon" src="./img/Facebook.png"></a></li>
+                        <li><a href="#"><img class="social-icon" src="./img/Twitter.png"></a></li>
+                        <li><a href="#"><img class="social-icon" src="./img/LinkedIN.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
 
         <script>
             
