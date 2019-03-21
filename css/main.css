@@ -48,7 +48,8 @@ nav {
     justify-content: flex-end;
 }
 .heading {
-    font-family: 'MuseoSansW01-900';
+    font-family: 'MuseoSansW01-900', Arial, Helvetica, sans-serif;
+    font-weight: 900;
     font-size: 2.9rem;
     color: #853569;
     line-height: 3.3rem;
@@ -143,7 +144,8 @@ footer {
     justify-content: center;
 }
 .copyright-wrapper p {
-    font-family: 'Museo Sans';
+    font-family: 'Museo Sans', Arial, Helvetica, sans-serif;
+    font-weight: 500;
     color: #F3F3F3;
     line-height: 30px;
 }
